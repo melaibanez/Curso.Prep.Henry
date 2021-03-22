@@ -230,9 +230,10 @@ function continueStatement(numero) {
 let num = numero;
 let resultado = [];
 for(let i=0;i<10;i++){
-  if(i !== 5){
+  if(i !== 4){
   num = num+2;
-  resultado.push[num];}
+  resultado.push(num);
+}
   else continue;
 }
 return resultado;
